@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/calculator.css">
+    <title>Számológép</title>
+</head>
+<body>
+    <div class="calculator">
+        <!--Kijelző-->
+        <div class="display">
+            <div class="screen">
+                <p id="result"></p>
+            </div>
+        </div>
+        <!--Gombok-->
+        <div class="buttons">
+            <div class="firstline">
+                    <button class="btn" value="C" onclick="clearTheNumber()" id="delete">C</button>
+                    <button class="btn" value="C" onclick="deleteLastNumber()" id="deleteLastNumber">&larr;</button>
+                    <button class="btn" value="+/-" onclick="addToScreen('+/-')" id="+/-">+/-</button>
+                    <button class="btn" value="/" onclick="addToScreen(value)" id="/">/</button>
+            </div>
+            <div class="secondline">
+                    <button class="btn btn-number" value="7" onclick="addToScreen(value)" id="7">7</button>
+                    <button class="btn btn-number" value="8" onclick="addToScreen(value)" id="8">8</button>
+                    <button class="btn btn-number" value="9" onclick="addToScreen(value)" id="9">9</button>
+                    <button class="btn btn" value="*" onclick="addToScreen(value) "id="*">*</button>
+            </div>
+            <div class="thirdline">
+                    <button class="btn btn-number" value="4" onclick="addToScreen(value)" id="4">4</button>
+                    <button class="btn btn-number" value="5" onclick="addToScreen(value)" id="5">5</button>
+                    <button class="btn btn-number" value="6" onclick="addToScreen(value)" id="6">6</button>
+                    <button class="btn" value="-" onclick="addToScreen(value) "id="-">-</button>
+            </div>
+            <div class="fourthline">
+                    <button class="btn btn-number" value="1" onclick="addToScreen(value)" id="1">1</button>
+                    <button class="btn btn-number" value="2" onclick="addToScreen(value)" id="2">2</button>
+                    <button class="btn btn-number" value="3" onclick="addToScreen(value)" id="3">3</button>
+                    <button class="btn" value="+" onclick="addToScreen(value) "id="+">+</button>
+            </div>
+            <div class="fifthline">
+                    <button class="btn btn-number" value="0" onclick="addToScreen(value)" id="doublenumber">0</button>
+                    <button class="btn" value="." onclick="addToScreen(value)" id=".">.</button>
+                    <button class="btn" value="=" onclick="calculate()" id="equality">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/calculator.js"></script>
+</body>
+</html>
