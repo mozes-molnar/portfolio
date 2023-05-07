@@ -1,224 +1,219 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap');
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+box-sizing : border-box;
+padding : 0;
+margin : 0;
 }
 
 html {
-    color: #AAAAAA;
-    font-family: 'Oswald', sans-serif;
+color : #AAAAAA;
+font-family : 'Oswald', sans-serif;
 }
 
 body {
-    text-decoration: none;
-    text-align: justify;
-    vertical-align: middle;
-    background-color: #0C0910;
+text-decoration : none;
+text-align : justify;
+vertical-align : middle;
+background-color : #0C0910;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+color : inherit;
+text-decoration : none;
 }
 
 h2 {
-    font-size: 2rem;
-    font-weight: 600;
+font-size : 2rem;
+font-weight : 600;
 }
 
 .black-wrapper {
-    background-color: #000;
+background-color : #000;
 }
 
 .wrapper {
-    max-width: 1100px;
-    margin: 0 auto;
+max-width : 1100px;
+margin : 0 auto;
 }
 
 .basic-container-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+display : flex;
+justify-content : space-between;
+align-items : center;
 }
 
 header {
-    height: 88px;
-    max-width: 1100px;
-    margin: 0 auto
+height : 88px;
+max-width : 1100px;
+margin : 0 auto;
 }
 
 .logo {
-    font-size: 1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    width: 226px;
-    letter-spacing: 2px;
-    flex-shrink: 5;
-    background-color: #f71735;
-    border: none;
-    padding: 16px 32px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    opacity: 0.6;
-    transition: 0.3s;
+font-size : 1rem;
+font-weight : 600;
+text-transform : uppercase;
+width : 226px;
+letter-spacing : 2px;
+flex-shrink : 5;
+background-color : #f71735;
+border : none;
+padding : 16px 32px;
+text-align : center;
+font-size : 16px;
+margin : 4px 2px;
+opacity : 0.6;
+transition : 0.3s;
 }
 
 .logo:hover {
-    opacity: 1;
+opacity : 1;
 }
 
 nav > a {
-    font-weight: 400;
-    margin-left: 2rem;
-    font-size: 1rem;
-    letter-spacing: 1.5px;
-
+font-weight : 400;
+margin-left : 2rem;
+font-size : 1rem;
+letter-spacing : 1.5px;
 }
 
-nav > .active,
-nav > a:hover {
-    color: #ffff;
+nav > .active, nav > a:hover {
+color : #ffff;
 }
 
 .prof {
-    width: 275px;
-    margin-top: 50px;
-    border-radius: 40px;
+width : 275px;
+margin-top : 50px;
+border-radius : 40px;
 }
 
 .profile-picture-container {
-    display: flex;
-    justify-content: center;
+display : flex;
+justify-content : center;
 }
 
 main > .text-container {
-    padding-top: 35px;
-    padding-bottom: 35px;
-    color: #f71735;
-    text-align: center;
+padding-top : 35px;
+padding-bottom : 35px;
+color : #f71735;
+text-align : center;
 }
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* Opcionális, hogy jobb és bal közötti távolságot adjon */
-    padding-top: 35px;
-    padding-bottom: 35px;
+display : flex;
+flex-wrap : wrap;
+justify-content : space-between;
+padding-top : 35px;
+padding-bottom : 35px;
 }
 
 .project-card {
-    /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(1.5px);
-    -webkit-backdrop-filter: blur(1.5px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    width: calc(25% - 10px); /* A kártya szélességének beállítása */
-    height: 100%;
-    margin-bottom: 20px;
-    padding: 10px;
-    text-align: center;
+background : rgb(255, 255, 255, 0.08);
+border-radius : 16px;
+box-shadow : 0 4px 30px rgb(0, 0, 0, 0.1);
+backdrop-filter : blur(1.5px);
+border : rgb(255, 255, 255, 0.08) solid 1px;
+width : calc(25% - 10px);
+height : 100%;
+margin-bottom : 20px;
+padding : 10px;
+text-align : center;
 }
 
 .project-card:hover {
-    transform: translateY(-4px);
+transform : translateY(-4px);
 }
 
 .project-card img {
-    width: 100%;
-    height: auto;
+width : 100%;
+height : auto;
 }
 
 .contact {
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
+padding-bottom : 20px;
+display : flex;
+justify-content : center;
 }
 
 .icon-container {
-    padding-top: 15px;
-    display: flex;
-    justify-content: center;
+padding-top : 15px;
+display : flex;
+justify-content : center;
 }
 
 .icon {
-    padding: 10px;
-    opacity: 0.5;
+padding : 10px;
+opacity : 0.5;
 }
 
 .icon:hover {
-    opacity: 1;
+opacity : 1;
 }
 
 .card-container {
-    padding-top: 35px;
-    padding-bottom: 35px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* Opcionális, hogy jobb és bal közötti távolságot adjon */
-  }
-  
+padding-top : 35px;
+padding-bottom : 35px;
+display : flex;
+flex-wrap : wrap;
+justify-content : space-between;
+}
+
 .card {
-    width: calc(50% - 10px); /* A kártya szélességének beállítása */
-    height: 100%;
-    margin-bottom: 20px;
-    background-color: #000;
-    color: #AAAAAA;
-    border-radius: 40px 0px 40px 0px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    padding: 10px;
-    text-align: center;
+width : calc(50% - 10px);
+height : 100%;
+margin-bottom : 20px;
+background-color : #000;
+color : #AAAAAA;
+border-radius : 40px 0 40px 0;
+box-shadow : 0 2px 4px rgb(0, 0, 0, 0.2);
+padding : 10px;
+text-align : center;
 }
 
 .card:hover {
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px #f71735; 
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px #f71735;
+box-shadow : 0 10px 13px -7px #000000, 5px 5px 15px 5px #f71735;
 }
 
 .tittle-container {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: #AAAAAA;
-    margin-top: 35px;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
-    font-weight: 400;
-    text-transform: uppercase;
+display : flex;
+justify-content : center;
+text-align : center;
+color : #AAAAAA;
+margin-top : 35px;
+margin-bottom : 20px;
+letter-spacing : 2px;
+font-weight : 400;
+text-transform : uppercase;
 }
 
 .contact-container {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 35px;
+display : flex;
+justify-content : center;
+padding-bottom : 35px;
 }
 
 .contact-container a {
-    display: flex;
-    align-items: center;
-    background-color:#000000;
-    border-radius:3px;
-    cursor:pointer;
-    color:#AAAAAA;
-    padding:9px 23px;
-    opacity: 0.5;
+display : flex;
+align-items : center;
+background-color : #000000;
+border-radius : 3px;
+cursor : pointer;
+color : #AAAAAA;
+padding : 9px 23px;
+opacity : 0.5;
 }
 
 .contact-container a:hover {
-    opacity: 1;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px #f71735; 
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px #f71735;
+opacity : 1;
+box-shadow : 0 10px 13px -7px #000000, 5px 5px 15px 5px #f71735;
 }
+
 .contact-container a:active {
-	position:relative;
-	top:1px;
-    color: #ffff;
+position : relative;
+top : 1px;
+color : #ffff;
 }
 
 .contact-container a img {
-    margin-left: 10px;
+margin-left : 10px;
 }
